@@ -1,0 +1,81 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+   
+    
+}
+
+.game-title h1{
+    padding: 55px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: rgb(21, 73, 8);
+    text-shadow: 1.5px 2px 1.8px  rgb(21, 73, 8);
+}
+
+.main-container #game-description{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: rgb(101, 98, 98);
+}
+
+.main-container #user-input{
+    padding: 30px;
+    text-align: center;
+}
+
+#user-input input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    box-shadow: 1.5px 0px 3px rgba(21, 73, 8, 0.656);
+}
+
+.main-container #btn{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main-container #btn #submit{
+    box-shadow: 1.5px 0px 3px rgba(21, 73, 8, 0.656);
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 0.95em;
+    font-weight: lighter;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.main-container #btn #submit:hover{
+    cursor: pointer;
+    box-shadow: 1.5px 0px 3px rgba(21, 73, 8, 0.656);
+    background-color: rgb(21, 73, 8);
+    color: wheat;
+}
+
+#result{
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
